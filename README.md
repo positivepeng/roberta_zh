@@ -1,5 +1,17 @@
 RoBERTa for Chinese, TensorFlow & PyTorch
 
+### 再训练roberta
+在任务的预料上再训练roberta，使用情感分类数据集OCEMOTION为例
+
+#### 实验设计
+1. 先使用原始的roberta权重进行文本分类，记录实验结果
+2. 使用数据集文本对roberta进行再训练
+3. 使用训练完成后的roberta权重再进行文本分类，对比实验结果
+
+
+
+
+
 中文预训练RoBERTa模型 
 -------------------------------------------------
 RoBERTa是BERT的改进版，通过改进训练任务和数据生成方式、训练更久、使用更大批次、使用更多数据等获得了State of The Art的效果；可以用Bert直接加载。
